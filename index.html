@@ -1,18 +1,70 @@
-<!DOCKTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-eidth, initial-scale=1">
-        <title>Bootstrap Sample</title>
-        <!--Bootstrapの読み込み-->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <!--jQuery読み込み-->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- BootstrapのJS読み込み -->
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <h1>Kaharuのページ</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <h1>Portfolio</h1>
+        <nav>
+            <ul style="list-style:none;">
+                <li><p><a href="#about">About</a></p></li>
+                <li><p><a href="#photo">My Works</a></p></li>
+                <li><p><a href="#contact">Contact</a></p></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <p><img class="bg_image" src="images/about_bg_img.jpg" alt="" /></p>
+        <h1>About</h1>
+        <p><img class="top_image" src="images/profile.jpg" alt="" /></p>
+        <div class="container">
+            <p>名前：中原　加晴</p>
+            <p>出身：鹿児島県</p>
+            <p>職業：NPO法人職員</p>
+            <p>趣味：ランニング。2017年は3回目のフルマラソンに挑戦します。</p><br>
+        </div>        
+    </section>
+    <section id="photo">
+        <h1>MY Works</h1>
+        <div class="container">
+            <ul class="photo_image" style="list-style:none">
+            </style>
+                <li>
+                    <p><img src="images/150x150.png" width="150" height="150" alt="" /><p>
+                    <p>sample sample sample sample sample sample sample</p>
+                </li>
+                <li>
+                    <p><img src="images/150x150.png" width="150" height="150" alt="" /><p>
+                    <p>sample sample sample sample sample sample sample</p>
+                </li>
+                <li>
+                    <p><img src="images/150x150.png" width="150" height="150" alt="" /><p>
+                    <p>sample sample sample sample sample sample sample</p>
+                </li>
+                <li>
+                    <p><img src="images/150x150.png" width="150" height="150" alt="" /><p>
+                    <p>sample sample sample sample sample sample sample</p>
+                </li>
+            </ul> 
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="container">
+            <dl class="contact_list">
+                <dt>TEL</dt><dd><address>000-0000-0000</address></dd>
+                <dt>Email</dt><dd><address>kaharu.wp@gmail.com</address></dd>
+            </dl>
+        </div>        
+    </section>
+    <footer>
+        <div class="container">
+            <p>(c) 2016 KaharuDuy.</p>
+        </div>
+    </footer>
+</body>
 </html>
